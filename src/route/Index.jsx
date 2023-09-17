@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "../layout/_header/Header";
 import Index from "../page/Index";
 import About from "../page/About";
@@ -8,29 +9,18 @@ import Contacts from "../page/Contacts";
 
 
 function index() {
-  let component;
-  switch (window.location.pathname) {
-    case "/":
-      component = <Index />;
-      break;
-      case "/about":
-        component = <About />;
-        break;
-      case "/product":
-        component = <Products />;
-        break;
-      case "/new-events ":
-        component = <NewEvent />;
-        break;
-      case "/contact":
-        component = <Contacts />;
-        break;
-  }
+
   return (
-    <>
+    <Router>
       <Header />
-      {component}
-    </>
+      <Routes>
+        <Route path="/" element={<Index/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/product" element={<Products/>} />
+        <Route path="/new-events" element={<NewEvent/>} />
+        <Route path="/new-events" element={ <Contacts />} />
+      </Routes>
+    </Router>
   );
 }
 

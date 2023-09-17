@@ -11,9 +11,8 @@ function Header() {
     <div className="la-header">
       <div className="navbar">
         <div className="navbar-start">
-          <a className="btn btn-ghost normal-case text-xl" href="/">daisyUI</a>
+          <a className=" la-header-logo" href="/">daisyUI</a>
         </div>
-
         <div className="navbar-end">
           <div className="hidden lg:flex">{dataLi}</div>
           <div className="lg:hidden ">

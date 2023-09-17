@@ -3,4 +3,7 @@
     .navbar{
         @apply container;
     }
+    &-logo{
+        @apply btn btn-ghost normal-case text-xl;
+    }
 }
