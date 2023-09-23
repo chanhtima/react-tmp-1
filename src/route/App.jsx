@@ -23,7 +23,7 @@ function index() {
         <Route path="/product" element={<Products />} />
         <Route path="/new-events" element={<NewEvent />} />
         <Route path="/contact" element={<Contacts />} />
-        <Route path="/proudtc-details" element={<ProudtcDetails />} />
+        <Route path="/product/:id" element={<ProudtcDetails />} />
         <Route path="/new-event-details" element={<NewEventDetails />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>

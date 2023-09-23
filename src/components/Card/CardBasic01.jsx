@@ -1,17 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function ProductCard(cards) {
+function ProductCard({ id, image, title, Btn }) {
   return (
     <div className="co-basic-01">
-      <a href={cards.url}>
-        <img src={cards.image} alt={cards.title} />
-      </a>
+      <Link to={`/product/${id}`}>
+        <img src={image} alt={title} />
+      </Link>
       <div className="co-basic-01-body">
         <h2>
-          <a href={cards.url}>{cards.title}</a>
+          <Link to={`/product/${id}`}>{title}</Link>
         </h2>
         <div className="card-actions justify-end">
-          <button>{cards.Btn}</button>
+          <button>{Btn}</button>
         </div>
       </div>
     </div>

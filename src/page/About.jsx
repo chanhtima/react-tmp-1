@@ -5,10 +5,13 @@ import ImageAbout2 from "../assets/img/home-illustration 1.png";
 import ImageAbout3 from "../assets/img/header-search 1.png";
 
 function About() {
+
+  
   return (
     <div className="bg-tmp-top">
       <div className="bg-tmp-bottom">
         <div className="container">
+          
           <TextTitle
             title="About Us"
             detail="Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
