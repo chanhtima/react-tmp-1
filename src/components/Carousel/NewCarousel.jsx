@@ -30,7 +30,7 @@ function NewCarousel() {
             992: {
               perPage: 2,
             },
-            768: {
+            600: {
               perPage: 1,
             },
           },

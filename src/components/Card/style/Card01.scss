@@ -1,5 +1,5 @@
 .co-basic-01{
-    @apply bg-white hover:bg-secondary hover:text-white rounded-lg;
+    @apply bg-white hover:bg-secondary hover:text-white rounded-lg shadow-md;
     img{
         @apply aspect-video object-cover  rounded-t-lg w-full object-top;
     }

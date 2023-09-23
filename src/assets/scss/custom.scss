@@ -1,5 +1,5 @@
 .home-title {
-  @apply text-24 md:text-32 xl:text-36;
+  @apply font-semibold text-24 md:text-32 xl:text-36;
 }
 .container{
   padding: 3rem 0;
@@ -20,4 +20,14 @@
       padding-left: 25px;
       list-style-type: decimal;
   }
+}
+.bg-tmp-top{
+  background-image: url('../img/bg-tmp1.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.bg-tmp-bottom{
+  background-image: url('../img/bg-tmp2.png');
+  background-repeat: no-repeat;
+  background-position:bottom left;
 }

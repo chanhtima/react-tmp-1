@@ -1,11 +1,11 @@
-import ImageProduct from "../assets/img/person-donating-goods.png";
-import ImageProduct2 from "../assets/img/father-and-child-spending-time-together-outdoors.png";
-import ImageProduct3 from "../assets/img/startups,-entrepreneurship-and-growth.png";
-import ImageProduct4 from "../assets/img/browser-window-displaying-workspace-.png";
-import ImageProduct5 from "../assets/img/stressed-person-using-computer-at-desk.png";
-import ImageProduct6 from "../assets/img/person-using-currency-exchange-app.png";
-import ImageProduct7 from "../assets/img/business,-entrepreneurship-and-growth.png";
-import ImageProduct8 from "../assets/img/busy-project-manager-overwhelmed-by-work.png";
+import ImageProduct from "../assets/img/Products/Products (1).png";
+import ImageProduct2 from "../assets/img/Products/Products (2).png";
+import ImageProduct3 from "../assets/img/Products/Products (3).png";
+import ImageProduct4 from "../assets/img/Products/Products (4).png";
+import ImageProduct5 from "../assets/img/Products/Products (5).png";
+import ImageProduct6 from "../assets/img/Products/Products (6).png";
+import ImageProduct7 from "../assets/img/Products/Products (7).png";
+import ImageProduct8 from "../assets/img/Products/Products (8).png";
 
 export const DateProduct = [
   {
@@ -61,6 +61,34 @@ export const DateProduct = [
     id: 8,
     image: ImageProduct8,
     title: "LearnPress Master Web Design in Photoshop 8",
+    url: "proudtc-details",
+    Btn: "Free",
+  },
+  {
+    id: 9,
+    image: ImageProduct5,
+    title: "LearnPress Master Web Design in Photoshop 9",
+    url: "proudtc-details",
+    Btn: "Free",
+  },
+  {
+    id: 10,
+    image: ImageProduct6,
+    title: "LearnPress Master Web Design in Photoshop 10",
+    url: "proudtc-details",
+    Btn: "Free",
+  },
+  {
+    id: 11,
+    image: ImageProduct7,
+    title: "LearnPress Master Web Design in Photoshop 11",
+    url: "proudtc-details",
+    Btn: "Free",
+  },
+  {
+    id: 12,
+    image: ImageProduct8,
+    title: "LearnPress Master Web Design in Photoshop 12",
     url: "proudtc-details",
     Btn: "Free",
   },

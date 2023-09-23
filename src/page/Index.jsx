@@ -1,7 +1,7 @@
 import React from "react";
 import BannerCarousel from "../components/Carousel/BannerCarousel";
 import HomeAbout from "../layout/home/HomeAbout";
-import HomeProudtc from "../layout/home/HomeProudtc";
+import HomeProduct from "../layout/home/HomeProduct";
 import HomeNews from "../layout/home/HomeNews";
 function Home() {
   return (
@@ -14,7 +14,7 @@ function Home() {
       {/* Our Top Course */}
       <div className=" bg-gradient-to-r from-cyan-100 to-blue-100">
         <div className="container ">
-          <HomeProudtc />
+          <HomeProduct />
         </div>
       </div>
       {/*  New & Events */}
