@@ -53,7 +53,7 @@ export default {
     },
     extend: {
       colors: {
-        primary: '#EEB29A'
+        primary: '#EBA02D'
       },
       container: {
         center: true,
@@ -68,8 +68,8 @@ export default {
     themes: [{
       "light":
       {
-        "primary": "#EEB29A",
-        "secondary": "#D926AA",
+        "primary": "#EBA02D",
+        "secondary": "#84CDF0",
         "accent": "#1FB2A5",
         "neutral": "#191D24",
         "base-100": "#999",
@@ -81,5 +81,46 @@ export default {
     }],
   },
   
-  plugins: [require("daisyui")],
+  
+  plugins: [
+    require("daisyui"),
+    function ({ addComponents }) {
+      addComponents({
+        ".container": {
+          maxWidth: "100%",
+          "@screen xtn": {
+            maxWidth: "310px",
+          },
+          "@screen xs": {
+            maxWidth: "400px",
+          },
+          "@screen sm": {
+            maxWidth: "520px",
+          },
+          "@screen md": {
+            maxWidth: "720px",
+          },
+          "@screen lg": {
+            maxWidth: "960px",
+          },
+          "@screen xl": {
+            maxWidth: "1080px",
+          },
+          "@screen 2xl": {
+            maxWidth: "1200px",
+          },
+        },
+      })
+    },
+    function ({ addBase }) {
+      addBase({
+        'h1': { fontSize: 'calc(1.375rem + .6vw)' },
+        'h2': { fontSize: 'calc(1.325rem + .1vw)' },
+        'h3': { fontSize: 'calc(1.3rem + .1vw)' },
+        'h4': { fontSize: 'calc(1.175rem + .01vw)' },
+        'h5': { fontSize: '1.15rem' },
+        'h6': { fontSize: '.95rem' },
+      })
+    }
+  ],
 };

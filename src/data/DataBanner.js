@@ -1,7 +1,7 @@
-import ImageBanner from "../assets/img/Banner.png";
-import ImageBanner2 from "../assets/img/Banner.png";
-import ImageBanner3 from "../assets/img/Banner.png";
-import ImageBanner4 from "../assets/img/Banner.png";
+import ImageBanner from "../assets/img/freelance-young-asian-businesswoman-casual-wear-using-laptop-working-living-room-home 1.png";
+import ImageBanner2 from "../assets/img/freelance-young-asian-businesswoman-casual-wear-using-laptop-working-living-room-home 1.png";
+import ImageBanner3 from "../assets/img/freelance-young-asian-businesswoman-casual-wear-using-laptop-working-living-room-home 1.png";
+import ImageBanner4 from "../assets/img/freelance-young-asian-businesswoman-casual-wear-using-laptop-working-living-room-home 1.png";
 
 
 export const DateBanner = [

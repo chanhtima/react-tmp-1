@@ -1,7 +1,7 @@
 .la-header{
     @apply bg-white shadow-sm;
     .navbar{
-        @apply container;
+        @apply px-12 lg:px-36;
     }
     &-logo{
         @apply btn btn-ghost normal-case text-xl;

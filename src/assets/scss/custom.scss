@@ -1,0 +1,23 @@
+.home-title {
+  @apply text-24 md:text-32 xl:text-36;
+}
+.container{
+  padding: 3rem 0;
+}
+.co-text-editor{
+  *{
+      word-break: break-word;
+  }
+  table,img{
+      max-width: 100%;
+      height: auto;
+  }
+  ul{
+      padding-left: 25px;
+      list-style-type: disc;
+  }
+  Ol{
+      padding-left: 25px;
+      list-style-type: decimal;
+  }
+}

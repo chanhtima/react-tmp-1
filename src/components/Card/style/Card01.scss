@@ -1,0 +1,15 @@
+.co-basic-01{
+    @apply bg-white hover:bg-secondary hover:text-white rounded-lg;
+    img{
+        @apply aspect-video object-cover  rounded-t-lg w-full object-top;
+    }
+    &-body{
+        @apply  relative  card-body max-h-full p-4;
+        h2{
+            @apply text-18 line-clamp-2 mb-8;
+        }
+        button{
+        @apply btn-sm bg-white px-4 rounded-xl text-secondary absolute bottom-4 right-4;
+        }
+    }
+}

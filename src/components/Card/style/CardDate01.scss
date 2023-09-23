@@ -1,0 +1,30 @@
+.co-date-01{
+    @apply bg-white rounded-lg shadow-md relative;
+
+    img{
+        @apply aspect-video object-cover rounded-t-lg w-full object-top;
+    }
+    &-date{
+        @apply  text-white absolute top-[10px] right-[-10px] left-auto bg-primary rounded-s-md py-2 px-4; 
+        .after_box{
+            @apply w-3 h-3 top-[35px] right-0 absolute ;
+            border-bottom-color: transparent!important;
+            border-right-color: transparent!important;
+            filter: brightness(80%);
+            border: 6px solid #eec387;
+        }
+    }   
+    &-body{
+        @apply  relative  card-body max-h-full p-4;
+        h2{
+            @apply text-18 line-clamp-2 ;
+        }
+        p{
+            @apply text-14 line-clamp-2 mb-8 ;
+        }
+        button{
+        @apply btn-sm bg-white px-4 rounded-xl  text-primary absolute bottom-4 right-4;
+        }
+    }
+
+}

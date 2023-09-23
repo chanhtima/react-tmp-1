@@ -1,0 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+html .co-scroll-to-top {
+    transition: all 0.3s;
+    position: fixed;
+    @apply rounded-full right-[16px] lg:right-[30px] bottom-[35px] ;
+    
+}
+
+
+

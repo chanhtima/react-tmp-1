@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Index from "./route";
+import Index from "./route/App";
 import "./assets/scss/main.scss";
 import "./assets/index.css";
 import "@splidejs/react-splide/css";

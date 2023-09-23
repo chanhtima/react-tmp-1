@@ -1,16 +1,19 @@
-import { Splide, SplideSlide } from "@splidejs/react-splide";
 import React from "react";
-import { DateProduct } from "../../data/DataProduct";
-import ProductCard from "../Card/ProductCard";
-
-function ProductCarousel() {
-  const dataCardSlide = DateProduct.map((item) => {
+import CardDateBasuc01 from "../Card/CardDateBasuc01";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { DataNew } from "../../data/DataNew"
+ 
+function NewCarousel() {
+  const dataCardSlide = DataNew.map((item) => {
     return (
-      <SplideSlide key={item.id} className="p-4">
-        <ProductCard
+      <SplideSlide key={item.id} className="p-3">
+        <CardDateBasuc01
           image={item.image}
           title={item.title}
           detail={item.detail}
+           url={item. url}
+          date={item.date}
+
           Btn={item.Btn}
         />
       </SplideSlide>
@@ -19,15 +22,11 @@ function ProductCarousel() {
   return (
     <div>
       <Splide
-        aria-label="Product"
+        aria-label="NewEvents"
         options={{
-          perPage: 4,
+          perPage: 3,
           pagination: false,
           breakpoints: {
-            1200: {
-              perPage: 3,
-            },
-
             992: {
               perPage: 2,
             },
@@ -43,4 +42,4 @@ function ProductCarousel() {
   );
 }
 
-export default ProductCarousel;
+export default NewCarousel;

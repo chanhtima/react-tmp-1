@@ -1,9 +1,10 @@
 import React from 'react'
-import ProductListLayout from '../layout/ProductListLayout'
+import ProductListLayout from '../layout/products/ProductListLayout'
+
 
 function Products() {
   return (
-    <div> <ProductListLayout /></div>
+    <div><ProductListLayout/></div>
   )
 }
 
